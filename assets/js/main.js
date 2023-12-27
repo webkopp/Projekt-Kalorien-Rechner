@@ -38,4 +38,4 @@ const kalorienrechner = () => {
     }
 }
 
-ergebnis.innerHTML = "Dein idealer Kalorienbedarf nach Harris-Benedict-Formel ist " + Math.round(kcal) + " kcal pro Tag."
+ergebnis.innerHTML = "Dein idealer Kalorienbedarf nach Harris-Benedict-Formel ist " + Math.round(kalorienrechner) + " kcal pro Tag."
