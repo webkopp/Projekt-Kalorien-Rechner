@@ -15,7 +15,7 @@ const kalorienrechner = () => {
     let gewicht = document.querySelector("#gewicht").value
     let groesse = document.querySelector("#groesse").value
     let alter = document.querySelector("#alter").value
-    let palFaktor = document.querySelector("#palFaktorOptions").value
+    let palFaktor = document.querySelector("#palFaktor").value
 
     function berechneGrundumsatz(geschlecht, gewicht, groesse, alter) {
         let grundumsatz = 0
