@@ -15,10 +15,10 @@ CSS3
 JavaScript
 
 GitHub Live-Vorschau
-Du findest eine Live Vorschau auf GitHub: 
+Du findest eine Live Vorschau auf GitHub: https://webkopp.github.io/Projekt-Kalorien-Rechner/
 
 GitHub-Repository
-Du findest das gesamte Projekt auf GitHub: 
+Du findest das gesamte Projekt auf GitHub: https://github.com/webkopp/Projekt-Kalorien-Rechner
 
 Aufgaben
 - Programmiere einen Kalorienrechner:
