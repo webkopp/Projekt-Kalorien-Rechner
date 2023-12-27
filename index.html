@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>probjekt-015-kalorien-rechner</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Kalorienrechner</h1>
+        <p>>>> Bleib fit & gesund >>></p>
+    </header>
+    <main>
+        <article>
+            <form onsubmit="kalorienrechner(); return false">
+                <div>
+                    <label for="geschlecht">Geschlecht</label>
+                    <select name="geschlecht" id="geschlecht">
+                        <option value="männlich">Männlich</option>
+                        <option value="weiblich">Weiblich</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="gewicht">Gewicht (in kg)</label>
+                    <input type="number" name="gewicht" id="gewicht" placeholder="Dein Gewicht" required>
+                </div>
+                <div>
+                    <label for="groesse">Größe (in cm)</label>
+                    <input type="number" name="groesse" id="groesse" placeholder="Deine Größe" required>
+                </div>
+                <div>
+                    <label for="alter">Alter</label>
+                    <input type="number" name="alter" id="alter" placeholder="Dein Alter" required>
+                </div>
+                <div>
+                    <label for="palFaktor">Aktivitäts-Level:</label>
+                    <select name="palFaktor" id="palFaktorOptions" required>
+                        <option value="1.2">null</option>
+                        <option value="1.375">leicht</option>
+                        <option value="1.55">mittel</option>
+                        <option value="1.725">stark</option>
+                        <option value="1.9">überaktiv</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit" onclick="kcal()">Kalorienbedarf</button>
+                </div>
+            </form>
+            <div>
+                <h3 id="ergebnis"></h3>
+            </div>
+        </article>
+    </main>
+    <footer></footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

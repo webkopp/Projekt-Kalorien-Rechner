@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("../fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat-Light";
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(0,139,139,0.7);
+    background-blend-mode: color;
+    color: whitesmoke;
+    padding: 1rem 0;
+}
+
+article {
+    width: 30rem;
+    height: auto;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 0.3rem;
+    padding: 0rem 3rem;
+    margin-top: 1.5rem;
+}
+
+form, label {
+    display: block;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: -0.5rem;
+    padding-top: 1.5rem;
+}
+
+input[type="number"], select {
+    width: 50%;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: rgba(0,139,139,0.9);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+#ergebnis {
+    text-emphasis: center;
+    font-family: "Montserrat-Regular";
+    font-size: 3rem;
+}
+
+
